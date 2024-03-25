@@ -1,0 +1,7 @@
+<!-- git add .
+git commit -m "Descrição das alterações realizadas"
+ -->
+
+<!-- git push heroku main-->
+
+<!--faz o processo acima apos alguma alteração-->
