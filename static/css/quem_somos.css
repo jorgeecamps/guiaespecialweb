@@ -1,0 +1,66 @@
+/* Estilos para o container principal */
+.container {
+    display: flex;               /* Define o container como flexível */
+    flex-direction: column;      /* Define a direção dos itens como coluna */
+    justify-content: flex-start;     /* Centraliza os itens verticalmente */
+    align-items: left;         /* Centraliza os itens horizontalmente */
+    min-height: 100vh;           /* Define a altura mínima como 100% da altura da viewport */
+    background-color: #ffffff;       /* Adicione a cor de fundo desejada aqui */
+}
+
+
+/* Estilos para a barra de menus à direita */ /*permite mover a barra de menus*/
+.menu {
+    display: flex;               /* Define o container como flexível */
+    justify-content: center;   /* Alinha os itens à direita */
+    align-items: center;         /* Centraliza os itens verticalmente */
+    /*padding: 15px 0;  /* Aumenta o padding vertical para 15px */
+    /*height: 60px;  /* Altura fixa de 60 pixels para a barra de menu */
+    padding: 10px 0;  /* Aumenta o padding vertical para 10px */
+    height: 50px;     /* Altura fixa de 50 pixels para a barra de menu */
+    background-color: #0055d4;       /* Cor de fundo cinza claro como exemplo */
+}
+
+.menu ul {
+    list-style-type: none;       /* Remove os marcadores de lista */
+    padding: 0;                  /* Remove o padding padrão */
+    margin: 0;                   /* Remove a margem padrão */
+}
+
+.menu ul li {
+    display: inline;             /* Exibe os itens em linha horizontal */
+    margin-left: 20px;           /* Adiciona uma margem à esquerda de 20px entre os itens */
+}
+
+.menu ul li a {
+    text-decoration: none;       /* Remove a decoração de sublinhado dos links */
+    color: #fafafa;              /* Define a cor do texto dos links */
+    font-weight: bold;           /* Define o peso da fonte dos links como negrito */
+}
+
+
+/* Estilos para o conteúdo no centro */ /* Permite mover o conteudo do centro */
+.content {
+    display: flex;               /* Define o container como flexível */
+    justify-content: center;     /* Centraliza o conteúdo horizontalmente */
+    align-items: flex-start;     /* Alinha o conteúdo ao topo */
+    flex-grow: 50;               /* Permite que o conteúdo cresça para ocupar o espaço disponível */
+    color: #000000;              /* Define a cor do texto como um tom de azul */
+    font-size: 20px;              /* Aumenta o tamanho da letra para 24 pixels */
+}
+
+.title h1 {
+    margin: 0;                   /* Remove a margem padrão */
+    font-size: 32px;             /* Aumenta o tamanho da fonte do título para 32 pixels */
+}
+
+
+
+
+
+
+
+
+
+
+
