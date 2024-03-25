@@ -11,7 +11,7 @@
 
 /* Estilos para a barra de menus à direita */ /*permite mover a barra de menus*/
 .menu {
-    display: flex;               /* Define o container como flexível */
+    display: flex;               /* Definee o container como flexível */
     justify-content: center;   /* Alinha os itens à direita */
     align-items: center;         /* Centraliza os itens verticalmente */
     /*padding: 15px 0;  /* Aumenta o padding vertical para 15px */
