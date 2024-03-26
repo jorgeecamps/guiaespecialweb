@@ -50,8 +50,8 @@
 }
 
 .title h1 {
-    margin: 0;                   /* Remove a margem padrão */
-    font-size: 32px;             /* Aumenta o tamanho da fonte do título para 32 pixels */
+    margin: 100;                   /* Remove a margem padrão */
+    font-size: 32px solid;             /* Aumenta o tamanho da fonte do título para 32 pixels */
 }
 
 
