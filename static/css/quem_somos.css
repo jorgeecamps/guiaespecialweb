@@ -49,9 +49,10 @@
     font-size: 20px;              /* Aumenta o tamanho da letra para 24 pixels */
 }
 
-.title h1 {
-    margin: 100;                   /* Remove a margem padrão */
-    font-size: 32px solid;             /* Aumenta o tamanho da fonte do título para 32 pixels */
+.call-to-action {
+    font-size: 18px;
+    color: #0055d4;
+    font-weight: bold;
 }
 
 
